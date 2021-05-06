@@ -27,10 +27,62 @@
     <div id="content">
         <div id="navbar">
             <div id="navbar-left"> 
-                <ion-icon name="chevron-back-outline"></ion-icon>
-                <ion-icon name="chevron-forward-outline"></ion-icon>
+                <ion-icon class="navbar-arrow" name="chevron-back-outline"></ion-icon>
+                <ion-icon class="navbar-arrow" name="chevron-forward-outline"></ion-icon>
+                <div id="search-wrapper">
+                    <ion-icon name="search"></ion-icon>
+                    <input type="search" />  
+                </div>
             </div>
-            <div id="navbar-right">RIGHT</div>
+            <div id="navbar-right">
+                <button class="navbar-button" id="left-button">
+                    SIGN UP
+                </button>
+                <button class="navbar-button" id="right-button">
+                    LOGIN
+                </button>
+            </div>
+        </div>
+        <div id="main">
+            <div class="card">
+                <div class="media">
+                    <img src="assets/album-cover.jpeg" />
+                    <ion-icon name="play-sharp"></ion-icon>
+                </div>
+                <div class="card-body">
+                    <p>Song Title</p>
+                    <p>Artist Name</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="media">
+                    <img src="assets/album-cover.jpeg" />
+                    <ion-icon name="play-sharp"></ion-icon>
+                </div>
+                <div class="card-body">
+                    <p>Song Title</p>
+                    <p>Artist Name</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="media">
+                    <img src="assets/album-cover.jpeg" />
+                    <ion-icon name="play-sharp"></ion-icon>
+                </div>
+                <div class="card-body">
+                    <p>Song Title</p>
+                    <p>Artist Name</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="footer-text">
+            <p>PREVIEW OF SPOTIFY</p>
+            <p>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
+        </div>
+        <div>
+            <button>SIGN UP FOR FREE</button>
         </div>
     </div>
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
